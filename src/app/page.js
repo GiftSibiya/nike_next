@@ -7,7 +7,6 @@ import { Hero } from "./components/Hero";
 import { PopularSec } from "./components/PopularSec";
 import { SuperQual } from "./components/SuperQual";
 import { Services } from "./components/Services";
-import { Special } from "./components/Special";
 import { Nav } from "./components/Nav";
 import { Subscribe } from "./components/Subscribe";
 import { Footer } from "./components/Footer";
@@ -22,17 +21,14 @@ export default function Home() {
       <section className="p-8">
         <Hero />
       </section>
-      <section className="p-8">
+      <section className="my-[100px]">
         <PopularSec />
       </section>
-      <section className="p-8">
+      <section className="">
         <SuperQual />
       </section>
       <section className="p-8">
         <Services />
-      </section>
-      <section className="p-8">
-        <Special />
       </section>
       <section className="bg-purple-300 p-8">
         <CustomerRev />

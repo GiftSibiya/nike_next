@@ -12,7 +12,7 @@ export const Nav = () => {
   return (
     <header className=" flex justify-center absolute w-full px-10 py-5">
       <nav className="flex w-[80%] justify-between">
-        <a href="">
+        <a href="#">
           <Image src={headerLogo} alt="header logo" />
         </a>
         <ul className="flex justify-between w-[50%] gap-8 max-lg:hidden">
@@ -21,8 +21,8 @@ export const Nav = () => {
           <li>Products</li>
           <li>Contact Us</li>
         </ul>
-        <a href="" className="flex md:hidden">
-          <Image src={hamburgerLogo} className="size-5" />
+        <a href="#" className="flex md:hidden">
+          <Image src={hamburgerLogo} alt="" className="size-5" />
         </a>
       </nav>
     </header>

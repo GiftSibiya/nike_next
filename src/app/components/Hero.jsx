@@ -21,7 +21,7 @@ export const Hero = () => {
         <h2 className="text-orange-400"> Our Summer Collection </h2>
         <div className="">
           <h1 className="text-[80px] w-[700px]">
-            The New Arrival <br />{" "}
+            The New Arrival <br />
             <span className="text-orange-400"> Nike </span> Shoes
           </h1>
           <p className="border-orange-400 border-2 p-5 w-[420px] rounded-3xl mb-4">
@@ -29,7 +29,6 @@ export const Hero = () => {
             for your avitve life
           </p>
           <button className="p-3 bg-orange-400 rounded-2xl text-white">
-            {" "}
             Shop Now
           </button>
           <div className="flex justify-between w-[50%]">
@@ -52,7 +51,7 @@ export const Hero = () => {
         <Image
           src={heroShoe}
           alt="hero shoe"
-          className="relative top-[-50px] w-[500px] "
+          className="relative top-[-50px] w-[500px] animate-shoe "
         />
         <div className="flex">
           <ShoeTile img={bigShoe1} onClick={() => setHeroShoe(bigShoe1)} />
