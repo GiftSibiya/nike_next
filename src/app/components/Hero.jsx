@@ -28,7 +28,7 @@ export const Hero = () => {
             Disocver stylish Nike arrivals, qulaity <br /> comfort and inovation
             for your avitve life
           </p>
-          <button className="p-3 bg-orange-400 rounded-2xl text-white">
+          <button className="p-3 bg-orange-400 rounded-2xl mb-2 text-white">
             Shop Now
           </button>
           <div className="flex justify-between w-[50%]">
